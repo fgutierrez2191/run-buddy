@@ -48,6 +48,7 @@ body {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
+    margin: auto;
   }
 
   footer h2 {
@@ -233,30 +234,33 @@ body {
         padding: 0 100px 20px 100px;
         border-bottom: 3px solid;
         margin-bottom: 35px;
-        color: #024e76;
+        color:#fce138;
+        text-align: left;
       }
 
 .contact {
     text-align: center;
     background: #024e76;
   }
+.left { float: left;
+padding:10% }
 
   .contact h2 {
       color: #fce138
   }  
 
-  .contact-info iframe{
+  .contact-info iframe {
       width: 400px;
       height: 400px;
   }
 
-  .contact-info div {
+  .contact-info right {
     width: 410px;
     display: inline-block;
     vertical-align: top;
     text-align: left;
     margin: 30px 0 0 60px;
-    color: white;
+    color: #024e76;
   }
 
   .contact-info h3 {
@@ -269,6 +273,7 @@ body {
     line-height: 1.5;
     font-size: 20px;
     font-style: normal;
+    color:#024e76;
   }
   
   .contact-info a {
